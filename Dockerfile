@@ -4,6 +4,7 @@ FROM node:8
 WORKDIR /usr/src/app
 
 # Install app dependencies
+# Committed for testing (ignore it)
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
 COPY package*.json ./
